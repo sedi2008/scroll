@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+
+body,
+h3 {
+    margin: 0;
+}
+
+.box {
+    width: 350px;
+}
+
+.head {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    background-color: rgb(31, 180, 180);
+    padding: 10px;
+}
+
+.body{
+    padding: 10px;
+    background-color: rgb(85, 255, 255);
+}
+.hidden{
+    display: none;
+    opacity: 0;
+    height: 0;
+    padding: 0;
+}
